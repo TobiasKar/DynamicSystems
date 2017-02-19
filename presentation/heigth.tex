@@ -1,0 +1,36 @@
+\section{Task 1: $h(\omega)$}
+\subsection{Approach}
+\begin{frame}{Task 1: $h(\omega)$}
+	\framesubtitle{Approach}
+	\centering Steady-State $\rightarrow$ $\dot{\theta} = \ddot{\theta} = 0$\\
+	\begin{equation*}
+		\frac{m_2}{2}\sin(2\theta)\omega^2 - \frac{g}{L}(m_1+m_2) \sin(\theta) = 0
+	\end{equation*}
+	\begin{equation*}
+	\theta_e = 0 \quad \theta_e = \arccos\left(\frac{1}{\omega^2}\frac{g}{L}\frac{(m_1+m_2)}{m_2}\right)
+	\end{equation*}
+	\centering which can be substituted into $\vv{r}_{m1}$:
+\end{frame}
+
+\subsection{Result}
+\begin{frame}{Task 1: $h(\omega)$}
+	\framesubtitle{Result}
+		\begin{figure}[H]
+			\begin{equation*}
+			h_{m1} = \begin{cases} 2L\left(1-\frac{1}{\omega^2}\frac{g}{L}\frac{(m_1+m_2)}{m_2}\right) & \omega > \sqrt{\frac{g}{L} \frac{m_1+m_2}{m_2}} \\ 0 & \text{else} \end{cases}
+			\end{equation*}
+
+		\end{figure}
+\end{frame}
+
+\subsection{Dependency}
+\begin{frame}{Task 1: $h(\omega)$}
+	\framesubtitle{Dependency}
+	\begin{figure}[H]
+		\centering
+		$m_1 = 1\,\left[\mathrm{kg}\right]$, $m_2 = 2\,\left[\mathrm{kg}\right]$, $L = 0.4\,\left[\mathrm{m}\right]$\\
+		\includegraphics[width=1\textwidth]{pics/height.png}
+	\end{figure}
+\end{frame}
+
+
